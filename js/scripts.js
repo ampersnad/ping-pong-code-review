@@ -1,5 +1,17 @@
 // Business logic
-
+//var n = parseInt($("input#userNumber").val());
+// for (var i=1; i === n; i++) {
+//   if (i % 15 == 0) {
+//     $("#list ul").append("<li>PingPong</li>");
+//
+//   } else if (i % 3 == 0) {
+//     $("#list ul").append("<li>Ping</li>");
+//
+//   } else if (i % 5 == 0) {
+//     $("#list ul").append("<li>Pong</li>");
+//
+//   } else (i).show();
+// }
 
 
 
