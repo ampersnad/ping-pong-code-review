@@ -1,6 +1,64 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
 
+h1 {
+	font-size: 85px;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 2px 2px 8px #8aa6a6
+}
 
 
 li {
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	text-shadow: 1px 1px 6px #8aa6a6
+}
+
+p.rulesHeader {
+	font-size: 18px;
+	font-weight: bold;
+	color: #716666;
 	
+}
+
+p.rules{
+	font-size: 14px;
+	font-weight: bold;
+	color: #716666;
+	margin: 2px 2px;
+}
+
+.form-control {
+	width: 300px;
+}
+
+
+.container {
+	background-image: linear-gradient(#add0d0, #ffffff, #e2cdcd);
+	width: 100%;
+	border-radius: 5px;
+}
+
+.jumbotron {
+	background: none;
+}
+
+
+.btn {
+	background-color: white;
+	color: #c69d9d;
+	font-weight: bold;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn#reset {
+	margin-left: 10px;
+	border-radius: 50%;
 }

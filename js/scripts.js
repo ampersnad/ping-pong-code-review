@@ -7,6 +7,10 @@ $(document).ready(function() {
     var n = parseInt($("input#userNumber").val());
     console.log("userinput", n);
 	$("li").remove();
+	
+  $("#reset").click(function() {
+		document.location.reload(true);
+  });
     
 //Business logic
 
@@ -24,7 +28,7 @@ $(document).ready(function() {
 		 $("#list").append('<li> ' + i + ' </li>');   
 	   }
 	 }
-
+	
 
 
 
