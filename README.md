@@ -1,24 +1,33 @@
 # Ping Pong Site
 
-#### _Beer drinking quiz site, second code review, 02.23.19_
+#### _Ping-Pong loop site, third code review, 03.10.19_
 
 #### By **Jen Bruce**
 
 ## Description
 
-_This is a simple web-based quiz to determine which of three styles of beer you should drink based on your answers to five questions. These questions involve your preferences of other sensory experiences that may relate to your enjoyment of one style of beer over another. Simple Javascript and jQuery commands were used to determine the result of the quiz and HTML and CSS were used to organize and style the site._
+_This is a minimal site to show a functioning example of a 'for' loop with branching.  Simple Javascript and jQuery commands were used to populate the list and HTML and CSS were used to organize and style the site._
 
 ## Specifications
 
-1. textheretexthere
-  - Input:
-  - Expected output:
+1. It can take user input and return the integer in a list.
+  - _Input: 5_
+  - _Expected output: [1,2,3,4,5]_ 
+2. It can determine divisibility by 15 and return "PingPong" in a list.
+  - _Input: 15_
+  - _Expected output: PingPong_
+3. It can determine divisibility by 3 and return "Ping" in a list.
+  - _Input: 3_
+  - _Expected output: Ping_
+4. It can determine divisibility by 5 and return "Pong" in a list.
+  - _Input: 5_
+  - _Expected output: Pong_
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
 * _Open the HTML and/or Git-Pages link in your web browser_
-* _[Link to homepage](https://ampersnad.github.io/Beer-Quiz-Site)_
+* _[Link to homepage](https://ampersnad.github.io/ping-pong-code-review)_
 
 
 ## Contact details

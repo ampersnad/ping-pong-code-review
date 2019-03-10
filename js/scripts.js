@@ -1,22 +1,4 @@
-// Business logic
-//var n = parseInt($("input#userNumber").val());
-// for (var i=1; i === n; i++) {
-//   if (i % 15 == 0) {
-//     $("#list ul").append("<li>PingPong</li>");
-//
-//   } else if (i % 3 == 0) {
-//     $("#list ul").append("<li>Ping</li>");
-//
-//   } else if (i % 5 == 0) {
-//     $("#list ul").append("<li>Pong</li>");
-//
-//   } else (i).show();
-// }
-
-
-
-
-
+ 
 
 // User Int logic
 $(document).ready(function() {
@@ -24,43 +6,29 @@ $(document).ready(function() {
     event.preventDefault();
     var n = parseInt($("input#userNumber").val());
     console.log("userinput", n);
-    $("#list ul").append('<li> ' + n + ' </li>');
+	$("li").remove();
+    
+//Business logic
+
+	 for (var i = 1; i <= n; i++) {
+	   if (i % 15 == 0) {
+		 $("#list").append("<li>PingPong</li>");
+		console.log(i);
+	   } else if (i % 3 == 0) {
+		 $("#list").append("<li>Ping</li>");
+		console.log(i);
+	   } else if (i % 5 == 0) {
+		 $("#list").append("<li>Pong</li>");
+		console.log(i);
+	   } else {
+		 $("#list").append('<li> ' + i + ' </li>');   
+	   }
+	 }
 
 
 
 
-
-    // var item1Input = $("input#item1").val();
-    // var item2Input = $("input#item2").val();
-    // var item3Input= $("input#item3").val();
-    // var item4Input = $("input#item4").val();
-
-    // var listArray1 = [item1Input, item2Input, item3Input, item4Input]
-    //
-    // var listArray2 = listArray1.map(function(uppercaseList) {
-    //   return uppercaseList.toUpperCase()
-    // });
-    // console.log(listArray2);
-    //
-    // var listArray3 = listArray2.sort();
-    //
-    //
-    // $(".item1").append(listArray3[0]);
-    // $(".item2").append(listArray3[1]);
-    // $(".item3").append(listArray3[2]);
-    // $(".item4").append(listArray3[3]);
-
-    // $(".this1").text(listArray3[0]);
-    // $(".this2").text(listArray3[1]);
-    // $(".this3").text(listArray3[2]);
-    // $(".this4").text(listArray3[3]);
-
-
-
-    // $(".verb").text(verbInput);
-    // $(".noun").text(nounInput);
-    // $(".beverage").text(beverageInput);
-    // $(".flavor").text(flavor);
+   
 
     // $("#blanks").hide();
 
